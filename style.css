@@ -1,0 +1,401 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*------------Navigation Bar-------------*/
+
+#nav-bar
+{
+    position: sticky;
+    top:0;
+    z-index:10;
+}
+.navbar-brand img
+{
+    height: 100px;
+    padding-left: 60px;
+}
+.navbar-nav li
+{
+    padding: 0 20px;
+}
+.navbar-nav li a
+{
+    float:right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color:#007bff;
+}
+.navbar
+{
+    background:#fff;
+}
+.navbar-toggler
+{
+    border: none;
+}
+.nav-link
+{
+    color: #555;
+    font-weight:600;
+    font-size:16px;
+}
+
+/*-------------Slider-------------*/
+
+#slider
+{
+    width:100%;
+}
+.carousel-caption
+{
+    top:50%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+.carousel-caption h5
+{
+    color:#ff00ff;
+    font-size:42px;
+}
+.carousel-caption p
+{
+    color:#00ff00;
+    font-size:20px;
+}
+
+/*--------------Blog------------------*/
+
+.blog
+{
+    margin:75px 0;
+}
+h1
+{
+    text-align: center;
+    font-weight:bold;
+    letter-spacing:2px;
+    color:#333;
+    padding-bottom:10px;
+}
+h1::after
+{
+    content:'';
+    background:#333;
+    display:block;
+    height:3px;
+    width:150px;
+    margin:10px auto;
+}
+.single-blog
+{
+    box-shadow:0px 0px 20px 1px rgba(0,0,0,0.2);
+    padding:10px;
+    margin-top:30px;
+    background-color:#fff;
+}
+.single-blog img
+{
+    width:100%;
+}
+.blog-meta
+{
+    font-size:14px;
+    margin-bottom:2px;
+}
+.single-blog span
+{
+    float:right;
+    font-size:12px;
+    color:cornflowerblue;
+}
+.blog-text
+{
+    font-size:14px;
+    text-align:justify;
+}
+.single-blog h2
+{
+    margin-top:10px;
+    font-size:16px;   
+    color:#007bff;
+}  
+.single-blog h2 a{
+    text-decoration:none;
+}  
+.read-more-btn
+{
+    background-image:linear-gradient(to right ,#1c03b5,#5c8bef);
+    padding:5px 12px 8px;
+    border-radius:20px;
+    line-height:20px;
+    font-size:14px;
+    color:#fff;
+    border:none;
+}
+.read-more-btn:hover{
+    background-image:linear-gradient(to right ,#006417,#00b128);
+    text-decoration:none;
+    color:#fff;
+}
+
+/*-------------Team---------------*/
+.team
+{
+    margin:75px 0;
+}
+h1
+{
+    text-align: center;
+    font-weight:bold;
+    letter-spacing:2px;
+    color:#333;
+    padding-bottom:10px;
+    
+}
+h1::after
+{
+    content:'';
+    background:#333;
+    display:block;
+    height:3px;
+    width:150px;
+    margin:10px auto;
+}
+.profile
+{
+    margin-top:25px;
+    
+}
+.profile .img-box
+{
+    opacity:1px;
+    display:block;
+    position:relative;
+}
+.profile h2
+{
+    font-size:22px;
+    font-weight:bold;
+    margin-top:15px;
+}
+.profile h3
+{
+    font-size:15px;
+    font-weight:bold;
+    margin-top:15px;
+}
+
+/*-------------Contact Us----------------*/
+
+form
+{
+    margin:o;
+    padding:0;
+    text-align:center;
+    background-position:center;
+    font-family:sans-serif;
+    background-size:cover;
+    background:linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url( img/b1.jpg);
+}
+.contact-title
+{
+    margin-top:60px;
+    color:#fff;
+    text-transform:lowercase;
+    transition: all 4s ease-in-out;
+}
+.contact-title h1
+{
+    text-align: center;
+    letter-spacing:2px;
+    color:#333;
+    padding-bottom:10px;
+}
+.form-control
+{
+    width:100px;
+    background:transparent;
+    border:none;
+    outline:none;
+    border-bottom:1px solid gray;
+    color:#fff;
+    font-size:10px;
+    margin-bottom:10px;
+}
+input
+{
+    height:45px;
+}
+form .submit
+{
+    background:#ff5722;
+    border-color:transparent;
+    color:#fff;
+    font-size:20px;
+    font-weight:bold;
+    letter-spacing:2px;
+    height:50px;
+    margin-top:20px;
+}
+form .submit:hover
+{
+    background-color:#f44336;
+    cursor: pointer;
+}
+
+/*---------------Map--------------*/
+
+.map
+{
+    margin:75px 0;
+}
+h1
+{
+    text-align: center;
+    font-weight:bold;
+    letter-spacing:2px;
+    color:#333;
+    padding-bottom:10px;
+}
+h1::after
+{
+    content:'';
+    background:#333;
+    display:block;
+    height:3px;
+    width:150px;
+    margin:10px auto;
+}
+.google-map
+{
+    position:relative;
+    padding-bottom:75%;
+    height:0;
+    overflow:hidden;
+}
+.google-map iframe
+{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+/*--------------Footer---------------*/
+
+.ftco-footer
+{
+    font-size:16px;
+    background:#000000;
+    padding:7em 0;
+    z-index:0;
+}
+.ftco-footer .ftco-footer-logo
+{
+    text-transform:uppercase;
+    letter-spacing: .1em;
+}
+.ftco-footer .ftco-footer-widget h2
+{
+    font-weight:normal;
+    color:#fff;
+    margin-bottom:40px;
+    font-size:22px;
+    font-weight:600;
+}
+.ftco-footer .ftco-footer-widget ul li
+{
+    margin-bottom:10px;
+}
+.ftco-footer .ftco-footer-widget ul li a
+{
+    color:rgba(255,255,255,0.6);
+}
+.ftco-footer .ftco-footer-widget ul li a span
+{
+    color:rgba(255,255,255,0.6);
+}
+.ftco-footer .ftco-footer-widget .btn-primary
+{
+    background:#fff;
+    border:2px solid #fff;
+}
+.ftco-footer .ftco-footer-widget .btn-primary:hover
+{
+     background:#fff;
+    border:2px solid #fff;
+}
+.ftco-footer p,a
+{
+    color:rgba(255,255,255,0.7);
+}
+.ftco-footer a:hover
+{
+    color:#fff;
+}
+.ftco-footer .ftco-heading-2
+{
+    font-size:17px;
+        font-weight:400;
+        color:#000000;
+}
+.ftco-footer-social li
+{
+    list-style:none;
+    margin:0 10px 0 0;
+    display:inline-block;
+}
+.ftco-footer-social li a
+{
+    height:50px;
+    width:50px;
+    display:block;
+    float:left;
+    background:rgba(255,255,255,0.1);
+    border-radius:50%;
+    position:relative;
+}
+.ftco-footer-social li a span
+{
+    position:absolute;
+    font-size:26px;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+}
+.ftco-footer-social li a:hover
+{
+    color:#fff;
+}
+.footer-small-nav >li
+{
+    display:inline-block;
+}   
+.footer-small-nav >li a
+{
+    margin:0 10px 10px 0;
+}
+.footer-small-nav >li a:hover ,.footer-small-nav >li a:focus 
+{
+    color:#31de79;
+}
+.media .ftco-icon
+{
+    width:100px;
+}
+.media .ftco-icon span
+{
+    color:#31de79;
+}
+
+
+/*----------------------Footer End--------------------------------*/
